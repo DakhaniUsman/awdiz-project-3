@@ -1,0 +1,25 @@
+@media screen and (min-width: 901px) {
+    .mobile-navbar {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .desktop-navbar {
+      display: none;
+    }
+
+    .hero{
+        background: url(./img/banner-small.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.2em;
+    }
+  }
